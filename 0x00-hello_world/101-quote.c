@@ -3,9 +3,9 @@
 /**
  * main - main entry point
  *
- * Description printing
+ * Description printing the sentence using write function
  *
- * return 1 : (not success)
+ * Return: 1  (error)
  *
  **/
 
