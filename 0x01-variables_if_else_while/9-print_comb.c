@@ -1,18 +1,22 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * main - enrty point
  *
- * Decription: print all numbers using puchar only
+ * Decription: print numbers from 0 to 9
  *
  * Return: 0 (success)
  **/
+
 int main(void)
 {
 	int n;
 
 	for (n = 0; n <= 9; n++)
+	{
 		putchar('0' + n);
-	putchar('\n');
+		putchar(',');
+		putchar(' ');
+	}
 	return (0);
 }
