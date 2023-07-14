@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main Entry point
+ * main - Entry point
  *
- * Description: program to print alphabet letters
+ * Description: print all letters
  *
- * Return: 1 (success)
-*/
+ * Return: 0 (success)
+ **/
 
 int main(void)
 {
